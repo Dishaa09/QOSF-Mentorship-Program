@@ -1,17 +1,17 @@
 # QOSF-Mentorship-Program
 
-# Quantum Circuit Experiment
+## Quantum Circuit Experiment
 
 This project contains a Python script to create and simulate quantum circuits using Qiskit. It includes setting up a quantum circuit with defined parameters, normalizing state amplitudes, and potentially visualizing results.
 
-## Table of Contents
+### Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Examples](#examples)
 - [Contributing](#contributing)
 - [License](#license)
 
-## Installation
+### Installation
 
 1. Install [Qiskit](https://qiskit.org/) for quantum circuit design and simulation:
    ```bash
@@ -21,15 +21,15 @@ This project contains a Python script to create and simulate quantum circuits us
    ```bash
    pip install -U qiskit-aer
    ```
-
-## Usage
+   
+### Usage
 
 1. Set the parameters:
    - `size`: Number of qubits in the circuit.
    - `state_values`: Define the initial state values for circuit configuration.
    - `target_amplitude`: Normalized amplitude for the states.
 
-## Examples
+### Examples
 
 Here is a minimal example of running the script with different values:
 ```python
